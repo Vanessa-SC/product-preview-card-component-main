@@ -105,7 +105,7 @@ button:hover {
     margin         : auto;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 675px) {
     main {
         margin: 1rem;
     }
@@ -114,7 +114,7 @@ button:hover {
         width                : 90%;
         grid-template-columns: 1fr;
         grid-template-rows   : 2fr 3fr;
-        min-height: 70%;
+        min-height           : 70%;
     }
 
     .card-img {
@@ -126,7 +126,7 @@ button:hover {
     }
 
     p.description {
-        font-size: 0.8rem;
+        font-size    : 0.8rem;
         margin-bottom: 1.5rem;
     }
 
@@ -141,6 +141,4 @@ button:hover {
     .cart-icon {
         margin-right: 0;
     }
-
-
 }
