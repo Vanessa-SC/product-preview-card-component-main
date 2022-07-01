@@ -105,6 +105,31 @@ button:hover {
     margin         : auto;
 }
 
+
+.attribution {
+    position  : fixed;
+    bottom    : 0;
+    display   : block;
+    width     : 100%;
+    text-align: center;
+    font-size : 0.9rem;
+    color     : var(--dark-grayish-blue);
+    opacity  : 0.5;
+}
+
+.attribution a {
+    color          : var(--dark-cyan);
+    text-decoration: none;
+}
+
+.attribution a:visited {
+    color: lightseagreen;
+}
+
+.attribution a:hover {
+    color: rgb(0, 143, 157);
+}
+
 @media (max-width: 675px) {
     main {
         margin: 1rem;
@@ -140,5 +165,9 @@ button:hover {
 
     .cart-icon {
         margin-right: 0;
+    }
+
+    .attribution {
+        font-size: 10px;
     }
 }
